@@ -9,5 +9,9 @@
 //function scoped hota hai
 //aap firse declare kar sakte hai same name se and error nhi aayega
 
-const discount = 10;
+//Scope (global , block, functional)
+// global scope -- Access in all Code
+// block scope -- Access in block
+// functional scope -- Access in function
+
 

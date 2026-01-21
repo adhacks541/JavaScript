@@ -14,4 +14,7 @@
 // block scope -- Access in block
 // functional scope -- Access in function
 
+//learned more things related to js
+//will update that tomorrow 
+
 

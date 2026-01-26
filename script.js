@@ -1,3 +1,4 @@
+//**Variables and Declarations**//
 // var a;    declaration
 // var a = 12;   declaration and initialization
 // let a;
@@ -24,6 +25,7 @@
 // console.log(a);
 // let a = 12;
 
+
 //Hoisting impact per type
 //hoisting -> ek variable ko jab js mein banate hai toh woh variable do hisso mein toot jaata hai and uska declare part upar chala jaata hai and uska initialization part reh jata hai
 // console.log(a);
@@ -32,3 +34,48 @@
 // var --> hoist --> undefined
 // let --> hoist --> x
 // const --> hoist --> x
+
+
+//**Data Types + Type System**//
+
+// 12 harsh true [] {} () null undefined NaN Symbol bigInt
+
+//Primitive Data Types
+// -> aise saari value jinko copy karne par tumhe ek real copy mil jaaye.
+//1. Number  
+// let a = 12;
+//2. String  
+// let b = "harsh";
+// ' ' - single quote
+// " " - double quote
+// ` ` - backtick
+//3. Boolean    
+// let c = true;
+//4. Undefined
+// let d;
+//5. Null
+// let e = null;
+//6. Symbol --> unique immutable value
+// future mein hum koi libraries use karenge ab is case mein un libraries mein kai baar kuch fields hoti hai jinse similar hum bhi bana dete hai aur galti se humari bannai hui fields us library ki original fields ko change kar deta hai.
+
+let f = Symbol("harsh");
+let g = Symbol("harsh");
+// console.log(f==g);
+//7. BigInt
+// let h = BigInt(12);
+// let i = BigInt("12");
+// console.log(h);
+// console.log(i);
+
+
+//Reference Data Types
+// -> aise saari value jinko copy karne par tumhe ek real copy na mile but aapko reference milega parent ka.
+// [] () {}
+//1. Array
+// let a = [1,2,3,4,5];
+//2. Object
+// let b = {name: "harsh", age: 20};
+//3. Function
+
+
+

@@ -58,14 +58,12 @@
 //6. Symbol --> unique immutable value
 // future mein hum koi libraries use karenge ab is case mein un libraries mein kai baar kuch fields hoti hai jinse similar hum bhi bana dete hai aur galti se humari bannai hui fields us library ki original fields ko change kar deta hai.
 
-let f = Symbol("harsh");
-let g = Symbol("harsh");
+// let f = Symbol("harsh");
+// let g = Symbol("harsh");
 // console.log(f==g);
 //7. BigInt
 // let h = BigInt(12);
-// let i = BigInt("12");
-// console.log(h);
-// console.log(i);
+// let h = 9007199254740991n;
 
 
 //Reference Data Types
@@ -76,6 +74,13 @@ let g = Symbol("harsh");
 //2. Object
 // let b = {name: "harsh", age: 20};
 //3. Function
+// let c = function() {
+//     console.log("hello");
+// }
 
+
+
+//Dynamic Typing -> js mein static typing nahi hai and yaha par hai dynamic typign
+// ->
 
 

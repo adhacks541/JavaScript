@@ -81,3 +81,6 @@
 
 
 //Dynamic Typing -> js mein static typing nahi hai and yaha par hai dynamic typign
+
+
+//typeof quirks (e.g. typeof null === 'object)

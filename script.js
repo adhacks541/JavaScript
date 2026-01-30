@@ -84,3 +84,4 @@
 
 
 //typeof quirks (e.g. typeof null === 'object)
+// will surely do this tomorrow

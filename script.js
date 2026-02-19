@@ -80,8 +80,53 @@
 
 
 
-//Dynamic Typing -> js mein static typing nahi hai and yaha par hai dynamic typign
+//Dynamic Typing -> js mein static typing nahi hai and yaha par hai dynamic typing jiska matlab hai aap data ko change kar sakte ho kyounki yahan par dynamic data types hai
+
 
 
 //typeof quirks (e.g. typeof null === 'object)
-// will surely do this tomorrow
+
+//typeof NaN --> number
+//typeof null --> object
+//typeof [] --> object
+//typeof {} --> object
+//typeof function --> function
+
+// Type coercion (== vs ===) --> concept jisme aapka ek type automatically convert hojayega
+// "5" + 1 = '51' --> string + number = string
+// "5" - 1 = 4 --> string - number = number
+
+// Truthy vs falsy values --> aise values jo true ya false ki tarah behave kare
+// falsy values --> false, 0, "", null, undefined, NaN , document.all
+// truthy values --> rest all --> [] {} () function
+// !! --> double negation --> check truthy or falsy
+
+
+//undefined vs null
+// undefined --> variable declare kiya but value nhi di
+// null --> intentional empty value
+//let x;
+//console.log(x);
+//let y = null;
+//console.log(y);
+
+
+//**Operators**//
+
+//Arithmetic Operators
+// +, -, *, /, %, **
+
+//Assignment Operators
+// =, +=, -=, *=, /=, %=, **=
+
+//Comparison Operators
+// ==, !=, ===, !==, >, <, >=, <=
+
+//Logical Operators
+// &&, ||, !
+
+//Unary Operators
+// ++, --, typeof, delete, void, in, instanceof
+
+//Ternary Operator
+// ? :

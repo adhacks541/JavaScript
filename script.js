@@ -127,6 +127,3 @@
 
 //Unary Operators
 // ++, --, typeof, delete, void, in, instanceof
-
-//Ternary Operator
-// ? :
